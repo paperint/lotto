@@ -22,9 +22,12 @@ function CheckLotto({
             placeholder="000"
           />
         </div>
-        <p className="w-11/12 p-4 mx-auto text-lg text-white bg-black">
-          {resultLotto}
-        </p>
+        {resultLotto !== "" && (
+          <p className="w-11/12 p-4 mx-auto text-lg text-white bg-black">
+            {resultLotto}
+          </p>
+        )}
+
         <button
           onClick={() => handleCheckResult()}
           className="w-full px-12 py-1 bg-orange-500 border border-orange-800 rounded-xl active:scale-95"
