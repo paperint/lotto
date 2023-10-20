@@ -1,3 +1,6 @@
+## Deploy Live
+- [Lotto-Tanakit](https://lotto-tanakit.netlify.app/)
+
 ## Tech Stack
 - React
 - Javascript
