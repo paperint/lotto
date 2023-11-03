@@ -9,7 +9,7 @@ function CheckLotto({
   return (
     <div className="w-11/12 overflow-hidden border border-orange-800 rounded-lg">
       <p className="p-2 text-white bg-orange-500 text-opacity-90">
-        ตรวจรางวัลล็อตเตอรี่ Diversition
+        ตรวจรางวัลล็อตเตอรี่
       </p>
       <div className="flex flex-col justify-center gap-4 p-4">
         <div className="inline-flex items-center gap-2 text-lg">
